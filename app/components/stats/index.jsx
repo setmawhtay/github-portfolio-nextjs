@@ -15,9 +15,11 @@ function GitStats() {
             <div className="bg-primary-bg">
             <Image
               src={`http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${userData.githubUser}&theme=algolia`}
-              width={1080}
-              height={520}
+              width={0}
+              height={0}
               alt="github profile-details"
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto' }}
               className="rounded-lg "
             />
             </div>
